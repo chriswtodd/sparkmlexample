@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6e87f8db-94a5-41b1-b380-6297dc2b55a0" name="Default Changelist" comment="" />
+    <list default="true" id="6e87f8db-94a5-41b1-b380-6297dc2b55a0" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Group/DT/DecisionTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Group/DT/DecisionTree.java" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,8 +22,12 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1d0aZ4i7zyUTtqRL8KQ7LyTNY0n" />
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../spark-2.4.5-bin-hadoop2.7/jars" />
     <property name="project.structure.last.edited" value="Global Libraries" />
     <property name="project.structure.proportion" value="0.15136719" />
@@ -43,6 +51,7 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
       <option name="MAIN_CLASS_NAME" value="Group.DT.DecisionTree" />
       <module name="Ass3" />
+      <option name="PROGRAM_PARAMETERS" value="&quot;C:\Users\Black Howler\Documents\Nearly $100,000 of Knowledge\Lecture Notes\COMP424\Ass3\data\kdd.data&quot;, &quot;C:\Users\Black Howler\Documents\Nearly $100,000 of Knowledge\Lecture Notes\COMP424\Ass3\data\output\&quot;, yes" />
       <shortenClasspath name="CLASSPATH_FILE" />
       <RunnerSettings RunnerId="Run" />
       <ConfigurationWrapper RunnerId="Run" />
@@ -77,5 +86,16 @@
       <updated>1591564517500</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
