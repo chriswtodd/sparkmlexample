@@ -2,8 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6e87f8db-94a5-41b1-b380-6297dc2b55a0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/DecisionTree.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ass3.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Ass3.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Ass3/Base/DelayTime/SetupSparkClasspath.csh" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Ass3/Base/DelayTime/SetupSparkClasspath.csh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Ass3/Group/DT/DecisionTree$DecisionTreeExec.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Ass3/Group/DT/DecisionTree$DecisionTreeExec.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Ass3/Group/DT/DecisionTree.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Ass3/Group/DT/DecisionTree.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Base/DelayTime/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Base/DelayTime/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Base/DelayTime/SetupSparkClasspath.csh" beforeDir="false" afterPath="$PROJECT_DIR$/src/Base/DelayTime/SetupSparkClasspath.csh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Group/DT/DecisionTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Group/DT/DecisionTree.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -27,7 +35,7 @@
   <component name="ProjectId" id="1d0aZ4i7zyUTtqRL8KQ7LyTNY0n" />
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../spark-2.4.5-bin-hadoop2.7/jars" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../utils/hadoop_2.8.0_jars_files" />
     <property name="project.structure.last.edited" value="Global Libraries" />
     <property name="project.structure.proportion" value="0.15136719" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -44,14 +52,14 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
       <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
       <option name="MAIN_CLASS_NAME" value="Group.DT.DecisionTree" />
       <module name="Ass3" />
-      <option name="PROGRAM_PARAMETERS" value="&quot;C:\Users\Black Howler\Documents\Nearly $100,000 of Knowledge\Lecture Notes\COMP424\Ass3\data\kdd.data&quot;, &quot;C:\Users\Black Howler\Documents\Nearly $100,000 of Knowledge\Lecture Notes\COMP424\Ass3\data\output\&quot;, yes" />
-      <shortenClasspath name="CLASSPATH_FILE" />
+      <option name="PROGRAM_PARAMETERS" value="&quot;data/kdd.data&quot;, &quot;C:\Users\Black Howler\Documents\Nearly $100,000 of Knowledge\Lecture Notes\COMP424\Ass3\data\output\&quot;, yes" />
+      <shortenClasspath name="MANIFEST" />
       <RunnerSettings RunnerId="Run" />
       <ConfigurationWrapper RunnerId="Run" />
       <method v="2">
@@ -67,9 +75,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="DecisionTree.jar (1)" type="JarApplication" temporary="true">
+      <option name="JAR_PATH" value="$PROJECT_DIR$/out/DecisionTree.jar" />
+      <method v="2" />
+    </configuration>
+    <configuration name="DecisionTree.jar" type="JarApplication" temporary="true">
+      <option name="JAR_PATH" value="$PROJECT_DIR$/out/artifacts/DecisionTree/DecisionTree.jar" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <module name="Ass3" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Application.Main" />
+      <item itemvalue="JAR Application.DecisionTree.jar" />
+      <item itemvalue="JAR Application.DecisionTree.jar (1)" />
+    </list>
     <recent_temporary>
       <list>
         <item itemvalue="Application.Main" />
+        <item itemvalue="JAR Application.DecisionTree.jar (1)" />
+        <item itemvalue="JAR Application.DecisionTree.jar" />
       </list>
     </recent_temporary>
   </component>
@@ -91,7 +116,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>

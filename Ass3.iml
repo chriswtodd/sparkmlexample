@@ -7,6 +7,34 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="library" name="jars" level="application" />
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/utils/jars" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/utils/jars" />
+        </SOURCES>
+        <jarDirectory url="file://$MODULE_DIR$/utils/jars" recursive="false" />
+        <jarDirectory url="file://$MODULE_DIR$/utils/jars" recursive="false" type="SOURCES" />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/utils/hadoop_2.8.0_jars_files" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/utils/hadoop_2.8.0_jars_files" />
+        </SOURCES>
+        <jarDirectory url="file://$MODULE_DIR$/utils/hadoop_2.8.0_jars_files" recursive="false" />
+        <jarDirectory url="file://$MODULE_DIR$/utils/hadoop_2.8.0_jars_files" recursive="false" type="SOURCES" />
+      </library>
+    </orderEntry>
+    <orderEntry type="library" name="jars1" level="application" />
+    <orderEntry type="library" name="jars2" level="application" />
+    <orderEntry type="library" name="hadoop_2.8" level="application" />
   </component>
 </module>
