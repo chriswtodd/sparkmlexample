@@ -1,0 +1,16 @@
+setenv HADOOP_VERSION 2.8.0
+setenv HADOOP_PREFIX /local/Hadoop/hadoop-$HADOOP_VERSION
+setenv SPARK_HOME /local/scratch/spark-2.3.0-bin-hadoop2.7/spark-2.4.5-bin-hadoop2.7/
+setenv PATH ${PATH}:$HADOOP_PREFIX/bin:$SPARK_HOME/bin
+setenv HADOOP_CONF_DIR $HADOOP_PREFIX/etc/hadoop
+setenv YARN_CONF_DIR $HADOOP_PREFIX/etc/hadoop
+setenv LD_LIBRARY_PATH $HADOOP_PREFIX/lib/native:$JAVA_HOME/jre/lib/amd64/server
+need java8
+javac -cp "spark-2.4.5-bin-hadoop2.7/jars/*" -d test COMP424/Ass3/src/Group/DT/DecisionTree.java
+jar cvf DecisionTree.jar -C test/ .
+spark-2.4.5-bin-hadoop2.7/bin/spark-submit --class "Group.DT.DecisionTree" --master yarn --deploy-mode cluster DecisionTree.jar /user/toddchri1/input/kdd.data user/toddchri1/output/output1.txt
+
+spark-2.4.5-bin-hadoop2.7/bin/spark-submit --class "Group.DT.DecisionTree" --master local DecisionTree.jar /user/toddchri1/input/kdd.data output1.txt
+
+hdfs dfs -rm -r /user/toddchri1/output/
+hdfs dfs -ls /user/toddchri1/output

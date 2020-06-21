@@ -49,7 +49,6 @@ public class DecisionTree {
         //Take file and file contents and load into a denseVector format with labels for the data
         //remote cluster file path "/users/toddchri1/input/kdd.data"
         //"/users/toddchri1/output"
-        //TODO:
         JavaRDD<String> lines = spark.read().textFile(args[0]).toJavaRDD();
         //Split into class Map extends Map
         JavaRDD<LabeledPoint> linesRDD = lines.map(line -> {
